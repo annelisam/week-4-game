@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Crystal Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- bootstrap grid-->
+<div class="container">
+
+    <div class="jumbotron">
+    
+        <h1 class="text-center">Crystal Game!</h1>
+
+    <!-- closing jumbotron div-->
+    </div>
+
+    <div class="row">
+        
+        <div class="col-lg-5">
+
+                <div class="panel panel-default">
+
+                        <div class="panel-heading">
+                          <h4 class="text-center">Instructions</h4>
+                        </div>
+
+                        <div class="panel-body">
+                            <p>
+                                You will be given a random number at the start of the game.
+                            </p>
+                            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                        </div>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Scoreboard</h4>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <h4 class="text-center">Wins:</h4>
+                        <div id="wins">
+                            <h4></h4>
+                        </div>
+
+                        <h4 class="text-center">Losses:</h4>
+                        <div id="losses">
+                            <h4></h4>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+    <!-- Right area-->
+
+    <div class="row">
+        <div class="col-lg-6">
+
+            <h4 class="text-center">Random Number:</h4><div id="random-number"></div>
+
+            <h4 class="text-center">Total Score:</h4><div id="total-score"></div>
+            
+            <div id="crystals"></div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+<!-- closing first container div-->
+</div>
+
+
+
+
+
+
+<!-- Javascript-->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="javascript/game.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</body>
+</html>
